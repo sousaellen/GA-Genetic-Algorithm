@@ -1,4 +1,4 @@
-# Inteligencia-Computacional
+# Algoritmo Genético
 > O objetivo é encontrar o máximo da função f(x,y) = |xsen(ypi/4) + ysen(xp/4)| com Algoritmo Genético.
 
 **_Descrição:_**

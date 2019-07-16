@@ -23,4 +23,3 @@ algoritmo em relação à FO em cada época, também é ilustrado o valor
 alcançado ao fim do período de 100 épocas.
 Podemos perceber que o algoritmo converge para a solução que maximiza
 a FO, dentro dos limites adotados no problema.
-

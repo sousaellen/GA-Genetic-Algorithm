@@ -1,20 +1,14 @@
 %% =============== TRABALHO DE INTELIGÊNCIA COMPUTACIONAL =================
-
 %   Instituição:    Universidade Federal do Ceará - UFC, campus Sobral-CE
 %   Autor(a):       Raíssa Ellen de Sousa
 %   Matrícula:      385135
-
 % =========================================================================
-
 %% DESCRIÇÃO DO PROBLEMA
-
 % Algoritmo genético para achar o máximo da função f(x,y) = |xsen(ypi/4) +
 % ysen(xp/4)|. Onde cada indivíduo da população é um vetor binário de 20
 % bits,em que os 10 primeiros representam x e os restantes representam y.
 % As variáveis x e y pertencem ao intervalo entre 0 e 20.
-
 % O crossover usado é de 1 ponto.
-
 
 %% CONDIÇÕES INICIAIS
 
@@ -23,7 +17,6 @@ close all;
 clc;
 
 %% CENÁRIO
-
 % Variáveis x e y dentro do intervalo entre 0 e 20. 
 % Gerar todos os valores de x e y possíveis
     y = linspace(0, 20, 1024);
@@ -42,7 +35,6 @@ clc;
     shading interp;
     
 %% VARIÁVEIS
-
 nIndividuos = 500;                  % Número de indivíduos considerados
 max_epocas = 100;                   % Número de épocas definido
 adeq = 20/1023;                     % Adequando as possibilidades do problema
@@ -51,7 +43,6 @@ nota_xy = zeros(1,nIndividuos);     % Notas atribuidas ao indivíduo [ x y ]
 
 
 %% ||||||||||||||||||||||||||||||| GENETIC ALGORITM (GA)|||||||||||||||||||||||||||||||
-
 % Indivíduos iniciais gerados aleatóriamente
 individuos = randi([0 1], nIndividuos, valormax );
 
@@ -130,7 +121,6 @@ xlabel('Épocas'); ylabel('Valor da FO');
 title('Valor alcançado da FO em cada época');
 
 %% Raíssa Ellen de Sousa - 385135
-
 
 
 

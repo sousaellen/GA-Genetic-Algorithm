@@ -1,7 +1,8 @@
 # Inteligencia-Computacional
 > O objetivo é encontrar o máximo da função f(x,y) = |xsen(ypi/4) + ysen(xp/4)| com Algoritmo Genético.
 
-Descrição:
+_Descrição:_
+
 Cada indivíduo da população é um vetor binário de 20 bits,em que os 10 primeiros
 representam x e os restantes representam y. As variáveis x e y pertencem ao intervalo entre 0 e 20.
 Para implementar o GA foram definidos o número de indivíduos e épocas

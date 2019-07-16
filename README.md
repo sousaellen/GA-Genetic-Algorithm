@@ -21,5 +21,10 @@ Na janela de comandos do MATLAB é gerado uma lista com todos os
 indivíduos escolhidos para cada época. Além do gráfico que mostra o progresso do
 algoritmo em relação à FO em cada época, também é ilustrado o valor
 alcançado ao fim do período de 100 épocas.
+
+![](fig1.png)
+
 Podemos perceber que o algoritmo converge para a solução que maximiza
 a FO, dentro dos limites adotados no problema.
+
+![](fig2.png)
